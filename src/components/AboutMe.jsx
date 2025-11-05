@@ -27,7 +27,7 @@ const AboutMe = () => {
          whileHover={{x:120, rotate:90}}
          transition={{duration:1.5}}
          className=' w-16 h-16 bg-[#FBFBFB] rounded-full text-[#8D5F8C] font-semibold z-50   '>CV</motion.button>
-         <a className="text-white absolute md:bottom-10 md:right-112 bottom-9 right-40 hover:underline z-10" href="https://docs.google.com/document/d/1nW5egWV2ZP-UcbbyrLlRjrpKk5gd6K48J8UP9c6PAKQ/edit?usp=sharing">Göz At</a>
+         <a className="text-white absolute md:bottom-10 md:right-112 bottom-9 right-40 hover:underline z-10" href="https://docs.google.com/document/d/1nW5egWV2ZP-UcbbyrLlRjrpKk5gd6K48J8UP9c6PAKQ/edit?usp=sharing" target="_blank" >Göz At</a>
     </motion.section>
     
   )
