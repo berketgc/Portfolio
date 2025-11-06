@@ -21,13 +21,20 @@ const AboutMe = () => {
        React, Tailwind ve Redux gibi teknolojilerle projeler geliştiriyor, her satır kodda daha iyisini hedefliyorum.
        Sürekli öğrenmeye, denemeye ve gelişmeye kararlıyım.
         Amacım, zamanla tam donanımlı ve fark yaratan bir geliştirici olmak.</p>
-        <motion.button
-         initial={{x: 350, scale:1 }}
+      
+       
+         <motion.a 
+          initial={{x: 350, scale:1 }}
          animate={{x:0 , rotate:360, scale:1}}
-         whileHover={{x:120, rotate:90}}
+         whileHover={{    x: [0, -3, 3, -3, 3, 0],
+         transition: {
+         duration: 0.3,
+         repeat: Infinity,
+      repeatType: "loop",}}}
+         
          transition={{duration:1.5}}
-         className=' w-16 h-16 bg-[#FBFBFB] rounded-full text-[#8D5F8C] font-semibold z-50   '>CV</motion.button>
-         <a className="text-white absolute md:bottom-10 md:right-112 bottom-9 right-40 hover:underline z-10" href="https://docs.google.com/document/d/1nW5egWV2ZP-UcbbyrLlRjrpKk5gd6K48J8UP9c6PAKQ/edit?usp=sharing" target="_blank" >Göz At</a>
+         className="text-[#8D5F8C] text-center  hover:underline  w-16 h-16 bg-[#FBFBFB] rounded-full flex items-center justify-center" href="https://docs.google.com/document/d/1nW5egWV2ZP-UcbbyrLlRjrpKk5gd6K48J8UP9c6PAKQ/edit?usp=sharing" target="_blank" >CV</motion.a>
+         
     </motion.section>
     
   )

@@ -84,7 +84,7 @@ const Portfolio = () => {
         </div>
                
         <div className='text-white w-11/12 m-auto text-center'>
-             <p> <span className='text-2xl font-bold underline'>Not:</span> Bu projeler, yazılım öğrenme sürecimde sürekli olarak üzerine eklemeler yaparak geliştirdiğim çalışmalardır.
+             <p> <span className='text-2xl font-bold underline text-center'>Not:</span> Bu projeler, yazılım öğrenme sürecimde sürekli olarak üzerine eklemeler yaparak geliştirdiğim çalışmalardır.
            Yeni teknolojiler öğrendikçe projelere entegre ediyor, tasarım ve işlevsellik yönünden güncellemeler yapıyorum.
              İlerleyen zamanda backend tarafını da geliştirip projeleri daha kapsamlı hale getirmeyi planlıyorum. Projelerimin bir diğer kısmı <a className='underline font-semibold font-serif' href="https://github.com/berketgc">Github</a> hesabımdadır. </p>
         </div>

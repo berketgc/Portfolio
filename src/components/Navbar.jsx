@@ -16,23 +16,23 @@ const Navbar = () => {
       <div
       
       className="lg:ml-10 lg:text-2xl ">
-        <h2 className="md:text-2xl  ">Berke <span className="font-bold">Tuğcu</span></h2>
+        <h2 className=" text-[14px]  md:text-2xl  ">Berke <span className="font-bold text-[14px] md:text-2xl">Tuğcu</span></h2>
         <motion.p
         whileHover={{ y: 10, rotate: 4, 
           transition: { duration: 0.3, type: "spring", stiffness: 200 },}}
-        className="text-[12px] md:text-[16px] border-t-2 ">Junior Web Developer</motion.p>
+        className="text-[10px] md:text-[16px] border-t-2 mr-2  ">Junior Web Developer</motion.p>
       </div>
 
-      <div className="flex gap-6 md:gap-4 lg:gap-14 lg:mr-10">
+      <div className="flex gap-1 md:gap-4 lg:gap-14 lg:mr-10">
         <motion.a 
         whileTap={{   x: [0, -5, 5, -5, 5, 0]}}
-        className=" border-2 border-[#8D5F8C] rounded-3xl p-2 hover:scale-110 duration-300 " href="#aboutMe">Hakkımda</motion.a>
+        className=" border-2 border-[#8D5F8C] rounded-2xl p-1 lg:p-2 lg:rounded-3xl hover:scale-110 duration-300 " href="#aboutMe">Hakkımda</motion.a>
         <motion.a
         whileTap={{   x: [0, -5, 5, -5, 5, 0]}}
-       className=" border-2 border-[#8D5F8C] rounded-3xl p-2 hover:scale-110 duration-300  " href="#portfolio">Projeler</motion.a>
+       className=" border-2 border-[#8D5F8C] rounded-2xl p-1 lg:p-2 lg:rounded-3xl hover:scale-110 duration-300  " href="#portfolio">Projeler</motion.a>
         <motion.a
         whileTap={{   x: [0, -5, 5, -5, 5, 0]}}
-         className=" border-2 border-[#8D5F8C] rounded-3xl p-2 hover:scale-110 duration-300  " href="#contact">İletişim</motion.a>
+         className=" border-2 border-[#8D5F8C] rounded-2xl p-1  lg:p-2 lg:rounded-3xl  hover:scale-110 duration-300  " href="#contact">İletişim</motion.a>
       </div>
     </motion.section>
   );
