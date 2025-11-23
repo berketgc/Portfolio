@@ -64,11 +64,11 @@ const Portfolio = () => {
         />
 
          <PortfolioItems
-          img={"./images/kozmetik.png"}
-        title={"Kozmetik ürünler websitesi"}
-        paraf={"Bu proje, React.js ile geliştirilen ve Tailwind CSS kullanılarak tasarlanan " +
+          img={"./images/next.png"}
+        title={"Restoran web sitesi (Next.js)"}
+        paraf={"Bu proje, Next.js ile geliştirilen ve Tailwind CSS kullanılarak tasarlanan " +
            "modern bir web uygulamasıdır. Duyarlı yapısı sayesinde farklı cihazlarda sorunsuz çalışır."}
-          link={"https://cosmatic-store.vercel.app/"}
+          link={"https://next-restaurant-lime.vercel.app/"}
         
         />
 
@@ -76,8 +76,8 @@ const Portfolio = () => {
           img={"./images/döviz.png"}
         title={"Canlı Döviz Dönüştürücü"}
         paraf={ "React ve Vite kullanılarak yapılmış basit bir döviz çevirici uygulamasıdır. " +
-         "Kullanıcılar USD, TRY, EUR ve API’de mevcut diğer dövizler arasında dönüşüm yapabilir. " +
-         "Uygulama, API kullanarak güncel döviz kurlarını sağlar."}
+           "Kullanıcılar USD, TRY, EUR ve API’de mevcut diğer dövizler arasında dönüşüm yapabilir. " +
+           "Uygulama, API kullanarak güncel döviz kurlarını sağlar."}
           link={"https://doviz-cevirme-uygulamasi.vercel.app/"}
         />
 

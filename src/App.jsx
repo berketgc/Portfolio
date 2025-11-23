@@ -11,7 +11,9 @@ function App() {
  
   return (
     <>
-    <div className='bg-[#8D5F8C] min-h-screen overflow-hidden'>
+    <div className='bg-[#8D5F8C] min-h-screen overflow-hidden'
+    
+    >
       <Navbar/>
       <AboutMe/>
       <Skills/>

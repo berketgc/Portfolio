@@ -9,12 +9,18 @@ const AboutMe = () => {
   
   return (
     <motion.section id='aboutMe'
+    style={{backgroundImage:`url("./images/port.jpg")`, 
+      backgroundSize:"cover",
+    backgroundPosition:"center",
+  backgroundRepeat:"no-repeat",
+   
+}}
     initial={{opacity: 0, color: '#FBFBFB'}}
     animate={{opacity:1}}
     whileHover={{color: '#f8e112', borderColor: '#f8e112', borderWidth: 2, textShadow: "0px 0px 4px rgb(255,255,255)", boxShadow: "0px 0px 8px rgb(255,255,255)"}}
     transition={{duration: 0.5}}
-    className=' flex flex-col justify-between items-center gap-4 border-6 p-4 w-3/4 m-auto mt-28   rounded-2xl md:w-2/4 md:mt-32 text-[#FBFBFB] relative ' >
-        <img className=" w-40 h-40    md:w-60 md:h-70 md:mb-10 md:mt-3  md:rounded-2xl rounded-full border-4 aspect-square  hover:border-2 border-white" src="./images/pp.jpg" alt="" />
+    className=' flex flex-col justify-between items-center gap-4  p-4 lg:p-10 w-3/4 m-auto mt-28   rounded-2xl md:mt-32 text-[#FBFBFB] relative ' >
+        <img className=" w-40 h-40    md:w-60 md:h-70 md:mb-10 md:mt-3  md:rounded-2xl rounded-full aspect-square   " src="./images/pp.jpg" alt="" />
         <h2 className="text-3xl  md:mb-4 text-center">Ben kimim ?</h2>
         <p className="text-center text-[16px] md:text-[20px]">Merhaba, ben <span className="font-semibold ">Berke Tuğcu</span>.
            Kendini geliştirmeye adayan bir frontend geliştiriciyim.
