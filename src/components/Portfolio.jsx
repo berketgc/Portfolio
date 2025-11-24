@@ -13,10 +13,17 @@ const Portfolio = () => {
 
 
   return (
-    <section id='portfolio' className='mt-40 md:mt-72 p-2 md:p-10 rounded-2xl  md:w-11/12  m-auto bg-[#FBFBFB]  '>
-    <div className=' md:p-4 p-2 bg-[#8D5F8C]'>
+    <section id='portfolio'  className='mt-40  p-2 md:p-10 rounded-2xl  md:w-11/12  m-auto bg-[#FBFBFB]   '
+  >
+    <div  
+     style={{backgroundImage:`url("./images/port2.jpg")`, 
+    backgroundSize:"cover",
+    backgroundPosition:"center",
+  backgroundRepeat:"no-repeat",}} 
+  className=' md:p-4 p-2 bg-[#8D5F8C]'>
      
         <motion.h1 
+        
           animate={animated ? { rotateY: 360, textShadow: "0px 0px 4px rgb(255,255,255)" } : {}}
         transition={{duration:0.5}}
       onMouseEnter={() => {
