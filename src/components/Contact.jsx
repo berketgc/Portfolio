@@ -9,8 +9,19 @@ const Contact = () => {
      rotateY:10
   
   }}
+     
+    id='contact' className=' mt-40 p-6 m-4 md:p-10 md:m-0 lg:mt-60 rounded-b-full bg-[#FBFBFB] relative' > 
     
-    id='contact' className='md:mt-40 mt-10 p-6 m-4 md:p-10 md:m-0 rounded-b-full bg-[#FBFBFB]' > 
+    <div><img className="size-14 rotate-45 z-10 absolute -top-28 left-14" src="./images/santa-hat.png" alt="" /></div>
+    <div className="border-2 bg-white absolute -top-10 left-16 size-12 rounded-2xl  "></div>
+    <div className="border-2 bg-white absolute -top-20 left-16  rounded-full  "><img className="size-12 " src="./images/smile.png" alt="" /></div>
+    <div className="border-2 bg-white absolute -top-9 left-15 h-12 w-2 rotate-12 rounded-2xl   "></div>
+     <div className="border-2 bg-white absolute -top-10 left-25 h-2 w-12 -rotate-45 rounded-2xl   "></div>
+     <div className="border-2 bg-white absolute -top-28 left-32 rounded-l-full rounded-bl-4xl rounded-b-full rounded-r-full rounded-t-3xl h-14 flex justify-center items-center   "><div className="p-4">" Hello ! Contact with me"</div></div>
+       
+      
+       
+       
         <motion.h2 
         whileHover={{color: '#8D5F8C',textShadow: "0px 0px 4px rgb(255,255,255)"   }}
         className='text-center text-4xl text-[#8D5F8C] mb-8 font-serif'>İletişim</motion.h2>

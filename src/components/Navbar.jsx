@@ -11,11 +11,13 @@ const Navbar = () => {
     color: "#8D5F8C"  }}
      transition={{duration:0.5, type:"spring", stiffness:50 }}
      className="flex justify-between items-center bg-[#FBFBFB] 
-      p-6 md:w-2/3 md:rounded-2xl md:mt-12 md:m-auto lg:p-8 h-24 lg:h-28">
+      p-6 md:w-2/3 md:rounded-2xl md:mt-12 md:m-auto lg:p-8 h-24 lg:h-28 relative">
       
+      <div className="size-14  bg-[#FBFBFB] border-[#8D5F8C]  border-2 rounded-r-full rounded-b-full absolute top-20 left-0 hover:scale-110 transform hover:translate-y-3 duration-300 hover:rotate-12" >
+        <img className="hover:rotate-45 duration-300"  src="./images/smile.png" alt="" /> </div>
+
       <div
-      
-      className="lg:ml-10 lg:text-2xl ">
+         className="lg:ml-10 lg:text-2xl ">
         <h2 className=" text-[14px]  md:text-2xl  ">Berke <span className="font-bold text-[14px] md:text-2xl">Tuğcu</span></h2>
         <motion.p
         whileHover={{ y: 10, rotate: 4, 
